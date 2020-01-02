@@ -1,0 +1,51 @@
+.showcase {
+    width: 40%;
+    margin-left: 300px;
+    padding: 15px;
+    background: lightblue;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: inline-flex;
+}
+
+.header h1{
+    float: left;
+}
+
+.header img {
+   display: flex;
+   padding-left: 200px;
+   height: 100px;
+}
+
+.flex-container {
+    display: inline-flex;
+    justify-content: center;
+}
+
+#right-side ul input{
+    border: none;
+    padding: 8px 16px;
+    margin: 8px 0;
+    background: #f4f4f4;
+}
+
+#right-side ul input:focus{
+    background: khaki;
+}
+
+.boton {
+    width: 300px;
+    padding-left: 160px;
+}
+
+.boton button {
+    display: inline-block;
+    border-style: dotted;
+    background: lightcoral;
+    font-size: 16px;
+}
+
